@@ -25,9 +25,16 @@ st.set_page_config(
     page_icon="🎥",
     layout="wide"
 )
+with st.sidebar:
+    st.image("https://cdn-icons-png.flaticon.com/512/809/809957.png", width=80)
+    st.title("🔍 About")
+    st.markdown("This tool uses Gemini + Phidata to summarize and analyze videos using AI.")
+    st.markdown("**Developer:** Khushi Sajjan")
+    st.markdown("📎 [Live Website](https://video-summarizer-vcut.onrender.com/)")
 
-st.title("Phidata Video AI Summarizer Agent 🎥🎤🖬")
-st.header("Powered by Gemini 2.0 Flash Exp")
+st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>🎥 Video AI Summarizer</h1>", unsafe_allow_html=True)
+st.subheader("Powered by Gemini 2.0 Flash Exp")
+
 
 
 @st.cache_resource
@@ -109,4 +116,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.markdown("---")
+st.markdown("<h4 style='text-align: center;'>🚀 Made with ❤️ by Khushi Sajjan</h4>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>🔗 <a href='https://github.com/khushi-ks1/Video-Summarizer'>GitHub Repo</a> | 🌐 <a href='https://video-summarizer-vcut.onrender.com/'>Live Preview</a></p>", unsafe_allow_html=True)
 
