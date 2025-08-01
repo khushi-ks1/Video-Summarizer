@@ -117,6 +117,5 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown("---")
-st.markdown("<h4 style='text-align: center;'>🚀 Made with ❤️ by Khushi Sajjan</h4>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>🔗 <a href='https://github.com/khushi-ks1/Video-Summarizer'>GitHub Repo</a> | 🌐 <a href='https://video-summarizer-vcut.onrender.com/'>Live Preview</a></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>🔗 <a href='https://github.com/khushi-ks1/Video-Summarizer'>GitHub Repo</a></p>", unsafe_allow_html=True)
 
