@@ -1,4 +1,4 @@
-# 🧠 AI Agent Chat App with Phi and Google GenAI
+# Summarize Videos Instantly with AI 🎥 
 
 This is a conversational AI web app built using **Streamlit**, **Phi**, and **Google Generative AI**. Ask questions, get answers, and explore intelligent conversations with real-time responses.
 
